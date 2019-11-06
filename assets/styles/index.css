@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap&subset=vietnamese");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Comfortaa", cursive;
+  background: #ffde43;
+  background-image: url(../images/home-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-view {
+  height: 100vh;
+  width: 100vw;
+  background: #ffde43;
+  color: #454545;
+  font-size: 68px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+header {
+  height: 160px;
+  padding: 0 55px;
+}
+header .menu-items {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 35px;
+  color: #454545;
+  cursor: pointer;
+}
+header .menu-items.signup {
+  color: #fff;
+}
+
+header .avatar {
+  height: 91px;
+  width: 91px;
+  border-radius: 999px;
+  background: #fff;
+}
+
+.main {
+  height: calc(100vh - 160px);
+  position: relative;
+}
+
+.main .logo {
+  padding-top: 50px;
+}
+
+.main .logo .quic {
+  font-size: 161px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.main .logo .mart {
+  font-size: 161px;
+  color: #d32a02;
+  font-weight: 700;
+}
+
+.main .options .option-items {
+  color: #454545;
+  font-weight: bold;
+  font-size: 24px;
+}
+.main .options .option-items:nth-child(2) {
+  margin: 0 62px;
+}
+
+.main .search-component {
+  height: 80px;
+  margin-top: 60px;
+}
+
+.main .search-component .hamburger {
+  width: 120px;
+  background: #454545;
+  height: 80px;
+  border-radius: 40px 0 0 40px;
+  cursor: pointer;
+}
+
+.main .search-component input {
+  height: 80px;
+  border: 0;
+  background: #fff;
+  width: 600px;
+  padding-left: 34px;
+  font-size: 32px;
+  color: #454545;
+  font-family: "Comfortaa";
+}
+
+.main .search-component input:focus {
+  outline: 0;
+  border: 0;
+}
+
+.main .search-component .search {
+  width: 80px;
+  background: #fff;
+  height: 80px;
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+}
+
+.main .menu-list {
+  padding: 60px 0;
+}
+
+.main .menu-list .menu-list-items {
+  height: 70px;
+  background: #454545;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 35px;
+  transition: all 1s ease;
+  border-radius: 999px;
+  color: #fff;
+  cursor: pointer;
+  padding: 0 35px;
+}
+
+.main .menu-list .menu-list-items img {
+  margin-left: 20px;
+}
+
+.main .menu-list .menu-list-items:last-child {
+  margin-right: 0;
+}
+
+.main .menu-list .menu-list-items:hover {
+  background: #d32a02;
+}
+
+.main .catalog {
+  position: absolute;
+  font-size: 27px;
+  color: #fff;
+  bottom: 45px;
+  width: 100%;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.main .catalog div {
+  position: relative;
+  height: 100px;
+}
+
+.main .catalog img {
+  bottom: 0;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.main .catalog div span {
+  transition: all 0.3s ease;
+  opacity: 1;
+  position: absolute;
+}
+
+.main .catalog div:hover span {
+  opacity: 0;
+}
+.main .catalog div:hover img {
+  animation: oni-chan 1s infinite;
+}
+
+@keyframes oni-chan {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
