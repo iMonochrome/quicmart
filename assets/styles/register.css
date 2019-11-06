@@ -1,0 +1,15 @@
+.login-modal .login-content .form .date-group select {
+  width: 120px;
+  border: 1px solid #454545;
+  border-width: 0 0 1px 0;
+  height: 40px;
+  margin: 10px 20px 30px 0;
+}
+
+.login-modal .login-content .form .date-group select:focus {
+  outline: none;
+}
+
+.login-modal .login-content .form .date-group select option {
+  height: 40px;
+}

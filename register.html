@@ -8,6 +8,8 @@
     <title>Quicmart</title>
     <link rel="stylesheet" href="assets/styles/index.css">
     <link rel="stylesheet" href="assets/styles/flex.css">
+    <link rel="stylesheet" href="assets/styles/login.css">
+    <link rel="stylesheet" href="assets/styles/register.css">
 </head>
 
 <body>
@@ -80,6 +82,55 @@
             </div>
         </div>
     </section>
+
+    <!-- LOGIN Modal -->
+    <div class="login-modal flex__center__center">
+        <div class="login-content flex__center__center">
+            <div class="quicmart flex__center__start">
+                <div class="quic">Quic</div>
+                <div class="mart">mart</div>
+            </div>
+            <div class="form flex__center__start flex__column">
+                <h2 class="title">Create a Quicmart account</h2>
+                <h3 class="sign-up">
+                    Already have one ? <a href="#">Sign in</a>
+                </h3>
+                <form action="#" class="flex__start__start flex__column">
+                    <input type="email" class="" placeholder="Email">
+                    <input type="email" class="" placeholder="Confirm Email">
+                    <input type="password" class="" placeholder="Password">
+                    <input type="number" class="" placeholder="Phone Number">
+                    <p>Date of Birth</p>
+                    <div class="date-group">
+                        <select name="" id="">
+                            <option value=""></option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                        </select>
+                        <select name="" id="">
+                            <option value=""></option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                        </select>
+                        <select name="" id="">
+                            <option value=""></option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                        </select>
+                    </div>
+                    <button class="btn btn__submit btn--yellow" type="submit">Sign up</button>
+                    <br>
+                    <div class="or">or</div>
+                    <br>
+                    <button class="btn btn__submit btn--facebook" type="submit">Sign in with facebook</button>
+                    <button class="btn btn__submit btn--google" type="submit">Sign in with Google</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

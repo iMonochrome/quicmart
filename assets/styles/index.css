@@ -69,6 +69,8 @@ header .avatar {
   font-weight: 700;
 }
 
+/* Options */
+
 .main .options .option-items {
   color: #454545;
   font-weight: bold;
@@ -77,6 +79,8 @@ header .avatar {
 .main .options .option-items:nth-child(2) {
   margin: 0 62px;
 }
+
+/* Search COmponent */
 
 .main .search-component {
   height: 80px;
@@ -89,6 +93,7 @@ header .avatar {
   height: 80px;
   border-radius: 40px 0 0 40px;
   cursor: pointer;
+  position: relative;
 }
 
 .main .search-component input {
@@ -97,9 +102,19 @@ header .avatar {
   background: #fff;
   width: 600px;
   padding-left: 34px;
-  font-size: 32px;
-  color: #454545;
+  font-size: 18px;
+  color: rgba(69, 69, 69);
   font-family: "Comfortaa";
+  font-weight: bold;
+}
+
+/* webkit solution */
+::-webkit-input-placeholder {
+  text-align: right;
+}
+/* mozilla solution */
+input:-moz-placeholder {
+  text-align: right;
 }
 
 .main .search-component input:focus {
@@ -114,6 +129,37 @@ header .avatar {
   border-radius: 0 40px 40px 0;
   cursor: pointer;
 }
+
+.main .search-component .hamburger .hover-group-items {
+  position: absolute;
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 100%;
+  background: #454545;
+  transition: all 0.4s ease;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0;
+  border-radius: 0 40px 40px 0;
+}
+
+.main .search-component .hamburger .hover-group-items .items {
+  transition: all 0.4s ease;
+  font-weight: bold;
+}
+
+.main .search-component .hamburger .hover-group-items .items:hover {
+  color: #ffde43;
+}
+
+.main .search-component .hamburger:hover .hover-group-items {
+  width: 714px;
+  opacity: 1;
+}
+
+/* Menu List */
 
 .main .menu-list {
   padding: 60px 0;
@@ -192,4 +238,49 @@ header .avatar {
   60% {
     transform: translateY(-15px);
   }
+}
+
+.btn {
+  border: 0;
+  border-radius: 999px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn--yellow {
+  background: #ffde43;
+  height: 58px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #454545;
+  width: 362px;
+}
+
+.btn--facebook {
+  height: 55px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  background: #438EFF;
+  width: 362px;
+  margin-bottom: 15px;
+}
+
+.btn--google {
+  height: 55px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  background: #FF4400 ;
+  width: 362px;
 }
