@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quicmart</title>
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="stylesheet" href="assets/styles/flex.css">
+    <link rel="stylesheet" href="assets/styles/login.css">
+    <link rel="stylesheet" href="assets/styles/profile.css">
+</head>
+
+<body>
+    <!-- <div class="first-view flex__center__center">
+        Search whatever you need ! <br>
+        And remember to bring your own shopping bag
+    </div> -->
+    <!-- Header -->
+    <header class="flex__end__center">
+        <div class="menu-items signup">Sign up</div>
+        <div class="menu-items signin">Sign in</div>
+        <div class="avatar"></div>
+    </header>
+
+    <!-- Content -->
+    <section class="main flex__start__center flex__column">
+        <div class="logo">
+            <span class="quic">Quic</span>
+            <span class="mart">mart</span>
+        </div>
+
+        <div class="options">
+            <span class="option-items">Honest reviews</span>
+            <span class="option-items">Live prices</span>
+            <span class="option-items">Recommendations</span>
+        </div>
+
+        <div class="search-component flex__center__center">
+            <div class="hamburger flex__center__center">
+                <img src="assets/images/hamburger.png" alt="">
+                <div class="hover-group-items flex__around__center">
+                    <div class="items">By brand</div>
+                    <div class="items">By product</div>
+                    <div class="items">Everything</div>
+                </div>
+            </div>
+            <input type="text" id="input-search" placeholder="By brand">
+            <label class="search flex__center__center" for="input-search">
+                <img src="assets/images/search-black.png" alt="">
+            </label>
+        </div>
+
+        <div class="menu-list flex__center__center">
+            <div class="menu-list-items flex__center__center">
+                Drinks
+                <img src="assets/images/water.png" alt="">
+            </div>
+            <div class="menu-list-items flex__center__center">
+                Sauces
+                <img src="assets/images/wine-bottle.png" alt="">
+            </div>
+            <div class="menu-list-items flex__center__center">
+                Processed
+                <img src="assets/images/processed.png" alt="">
+            </div>
+            <div class="menu-list-items flex__center__center">
+                Fresh
+                <img src="assets/images/fish.png" alt="">
+            </div>
+            <div class="menu-list-items flex__center__center">
+                Deals
+                <img src="assets/images/tag.png" alt="">
+            </div>
+        </div>
+
+        <div class="catalog flex__center__center flex__column">
+            <div class="flex__center__center flex__column">
+                <span>next</span>
+                <img src="assets/images/arrow-down.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- LOGIN Modal -->
+    <div class="login-modal flex__center__center">
+        <div class="profile-content login-content flex__center__center">
+            <div class="profile quicmart flex__start__center flex__column">
+                <div class="group-img">
+                    <img src="assets/images/avt.png" alt="" class="avt">
+                    <img src="assets/images/avt-plus.png" class="upload-avt" alt="">
+                </div>
+                <h1 class="profile-name">Anh Dũng Nguyễn</h1>
+                <h3 class="profile-location">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12.35" height="16.738" viewBox="0 0 12.35 16.738">
+                        <path id="Path_70" data-name="Path 70"
+                            d="M500.372,327.952a6.172,6.172,0,0,0-6.175,6.175c0,4.875,6.175,10.563,6.175,10.563s6.175-5.688,6.175-10.563A6.172,6.172,0,0,0,500.372,327.952Zm0,8.612a2.438,2.438,0,1,1,2.438-2.437A2.5,2.5,0,0,1,500.372,336.564Z"
+                            transform="translate(-494.197 -327.952)" fill="#fff" />
+                    </svg>
+                    Hà nội, Việt nam
+                </h3>
+                <button class="btn btn__profile btn--facebook">Nguyễn Anh Dũng</button>
+                <button class="btn btn__profile btn--google">dungnase05***@fpt.edu...</button>
+
+                <h3 class="profile-signout">Sign out</h3>
+            </div>
+
+            <div class="profile-info flex__start__start flex__column">
+                <h3 class="info-title">
+                    Info
+                </h3>
+                <p class="info-upload-avt">Update your profile avatar</p>
+                <div class="infor-avt flex__between__center">
+                    <img src="assets/images/avt.png" alt="">
+                    <a href="#">Upload</a>
+                    <span class="size">JPEG, PNG, accepted with a maximum size of 5.0 MB</a>
+                </div>
+                <p class="info-upload-info">Update your personal infomation</p>
+                <form action="#" class="flex__start__center flex__wrap">
+                    <label for="">First name</label>
+                    <input type="text" placeholder="Dũng">
+                    <label for="">Last name</label>
+                    <input type="text" placeholder="Nguyễn">
+                    <label for="">Gender</label>
+                    <select name="" id="">
+                        <option value="">Male</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                    <label for="">Email</label>
+                    <input type="email" placeholder="dungnase05***@fpt.edu.vn">
+                    <label for="">Phone number</label>
+                    <input type="text" placeholder="0852009***">
+                    <label for="">Password</label>
+                    <input type="text" placeholder="************">
+
+                    <button class="btn btn__submit btn--facebook">Save changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

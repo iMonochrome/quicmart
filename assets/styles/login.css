@@ -37,55 +37,55 @@
 }
 
 .login-modal .login-content .form {
-    padding-left: 75px;
-    width: calc(100% - 495px);
+  padding-left: 75px;
+  width: calc(100% - 495px);
 }
 
 .login-modal .login-content .form .title {
-    font-size: 34px;
-    font-weight: bold;
-    color: #454545;
-    margin-bottom: 5px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #454545;
+  margin-bottom: 5px;
 }
 
 .login-modal .login-content .form .sign-up {
-    font-size: 21;
-    font-weight: bold;
-    color: #454545;
-    margin-bottom: 32px;
+  font-size: 21;
+  font-weight: bold;
+  color: #454545;
+  margin-bottom: 32px;
 }
 
-.login-modal .login-content .form .sign-up a{
-    text-decoration: none;
-    color: #62A1FF;
+.login-modal .login-content .form .sign-up a {
+  text-decoration: none;
+  color: #62a1ff;
 }
 
 .login-modal .login-content .form input {
-    font-size: 24px;
-    height: 64px;
-    width: calc(362px - 16px);
-    border-radius: 17px;
-    background: #fff;
-    border: 1px solid #B3B3B3;
-    margin-bottom: 30px;
-    color: rgba(62, 62, 62, 1);
-    font-weight: 300;
-    padding-left: 16px;
+  font-size: 24px;
+  height: 64px;
+  width: calc(362px - 16px);
+  border-radius: 17px;
+  background: #fff;
+  border: 1px solid #b3b3b3;
+  margin-bottom: 30px;
+  color: rgba(62, 62, 62, 1);
+  font-weight: 300;
+  padding-left: 16px;
 }
 
-.login-modal .login-content .form input:focus{
-    outline: none;
-    border-color: #FFDE43;
-    box-shadow: 0 2px 4px rgba(255, 222, 67, 0.4);
+.login-modal .login-content .form input:focus {
+  outline: none;
+  border-color: #ffde43;
+  box-shadow: 0 2px 4px rgba(255, 222, 67, 0.4);
 }
 
 /* webkit solution */
 ::-webkit-input-placeholder {
-    text-align: left;
-    color: rgba(62, 62, 62, 0.45);
-  }
-  /* mozilla solution */
-  input:-moz-placeholder {
-    text-align: left;
-    color: rgba(62, 62, 62, 0.45);
-  }
+  text-align: left;
+  color: rgba(62, 62, 62, 0.45);
+}
+/* mozilla solution */
+input:-moz-placeholder {
+  text-align: left;
+  color: rgba(62, 62, 62, 0.45);
+}
