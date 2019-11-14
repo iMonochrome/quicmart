@@ -8,10 +8,198 @@
     <title>Quicmart</title>
     <link rel="stylesheet" href="assets/styles/index.css">
     <link rel="stylesheet" href="assets/styles/flex.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="assets/styles/result.css">
 </head>
 
-<body>
+<body class="page-result">
+    <div class="result-header flex__start__center flex__column">
+        <h1 class="result-header-title">Today Discounts</h1>
+        <div class="w3-content w3-display-container">
+            <img class="mySlides" src="assets/images/miga.png" style="width:100%">
+            <img class="mySlides" src="assets/images/migabigc.png" style="width:100%">
+            <img class="mySlides" src="assets/images/miga.png" style="width:100%">
+            <img class="mySlides" src="assets/images/migabigc.png" style="width:100%">
 
+            <button class="w3-button w3-light w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-light w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <div class="result-body">
+        <div class="result-body-menu flex__center__center">
+            <div class="menu-list-items flex__center__center">
+                Drinks
+                <img src="assets/images/water.png" alt="">
+            </div>
+            <div class="menu-list-items flex__center__center">
+                Sauces
+                <img src="assets/images/wine-bottle.png" alt="">
+            </div>
+            <div class="menu-list-items flex__center__center">
+                Processed
+                <img src="assets/images/processed.png" alt="">
+            </div>
+            <div class="menu-list-items flex__center__center">
+                Fresh
+                <img src="assets/images/fish.png" alt="">
+            </div>
+            <div class="menu-list-items flex__center__center">
+                Deals
+                <img src="assets/images/tag.png" alt="">
+            </div>
+        </div>
+
+        <div class="result-body-list-items flex__between__center flex__wrap">
+            <div onclick="showModal()" class="result-body-items">
+                <img src="assets/images/demo.png" alt="">
+                <div class="items-content flex__between__center">
+                    <h2 class="content-name">CHIN-SU HOT SAUCE</h2>
+                    <span class="content-price flex__center__center">12.000</span>
+                </div>
+            </div>
+            <div onclick="showModal()" class="result-body-items">
+                <img src="assets/images/demo.png" alt="">
+                <div class="items-content flex__between__center">
+                    <h2 class="content-name">CHIN-SU HOT SAUCE</h2>
+                    <span class="content-price flex__center__center">12.000</span>
+                </div>
+            </div>
+            <div onclick="showModal()" class="result-body-items">
+                <img src="assets/images/demo.png" alt="">
+                <div class="items-content flex__between__center">
+                    <h2 class="content-name">CHIN-SU HOT SAUCE</h2>
+                    <span class="content-price flex__center__center">12.000</span>
+                </div>
+            </div>
+            <div onclick="showModal()" class="result-body-items">
+                <img src="assets/images/demo.png" alt="">
+                <div class="items-content flex__between__center">
+                    <h2 class="content-name">CHIN-SU HOT SAUCE</h2>
+                    <span class="content-price flex__center__center">12.000</span>
+                </div>
+            </div>
+            <div onclick="showModal()" onclick="showModal()" class="result-body-items">
+                <img src="assets/images/demo.png" alt="">
+                <div class="items-content flex__between__center">
+                    <h2 class="content-name">CHIN-SU HOT SAUCE</h2>
+                    <span class="content-price flex__center__center">12.000</span>
+                </div>
+            </div>
+            <div onclick="showModal()" class="result-body-items">
+                <img src="assets/images/demo.png" alt="">
+                <div class="items-content flex__between__center">
+                    <h2 class="content-name">CHIN-SU HOT SAUCE</h2>
+                    <span class="content-price flex__center__center">12.000</span>
+                </div>
+            </div>
+            <div onclick="showModal()" class="result-body-items">
+                <img src="assets/images/demo.png" alt="">
+                <div class="items-content flex__between__center">
+                    <h2 class="content-name">CHIN-SU HOT SAUCE</h2>
+                    <span class="content-price flex__center__center">12.000</span>
+                </div>
+            </div>
+            <div onclick="showModal()" class="result-body-items">
+                <img src="assets/images/demo.png" alt="">
+                <div class="items-content flex__between__center">
+                    <h2 class="content-name">CHIN-SU HOT SAUCE</h2>
+                    <span class="content-price flex__center__center">12.000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='modal' class="modal-miga flex__center__center">
+        <div class="modal-miga-img flex__end__center flex__column">
+            <img src="assets/images/mi.png" alt="">
+            <div class="miga-price btn btn--google">8.000 -> 6.900</div>
+            <p class="miga-checkin">tại Vinmart</p>
+            <div class="w3-content w3-display-container flex__center__end">
+                <img class="miga-slide" src="assets/images/demo-sm.png" style="margin-right: 10px;">
+                <img class="miga-slide" src="assets/images/demo-lg.png" style="margin-right: 10px;">
+                <img class="miga-slide" src="assets/images/demo-sm.png">
+            </div>
+        </div>
+        <div class="modal-miga-content">
+            <h4 class="process">processed > noodles</h4>
+            <h3 class="vifon">Vifon</h3>
+            <h2 class="migaa">Mì bát vị gà</h2>
+            <img src="assets/images/vote.png" alt="">
+            <div class="miga-info flex__start__start flex__wrap">
+                <div class="ingredients">
+                    <h6 class="title">Ingredients</h6>
+                    <p>10% luck</p>
+                    <p>20% skill</p>
+                    <p>15% concentrated power of will</p>
+                    <p>50% pleasure</p>
+                    <p>50% pain</p>
+                </div>
+                <div class="nutritions">
+                    <h6 class="title">Nutritions</h6>
+                    <p>200% fat and unhealthy</p>
+                </div>
+                <div class="review">
+                    <h6 class="title">Review</h6>
+                    <p>Safe and classic choice for someone wants a simple,<br>
+                        light instant bow of noodles</p>
+                </div>
+                <div class="recomment">
+                    <h6>Recommendation</h6>
+                    <div class="list-recomment flex__start__start">
+                        <div class="w3-content w3-display-container flex__start__center" style="width: 100%;">
+                            <img class="miga-slide" src="assets/images/recom-img.png">
+                            <img class="miga-slide" src="assets/images/recom-img.png">
+                            <img class="miga-slide" src="assets/images/recom-img.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="closeModal()" class="btn-x">
+            <svg xmlns="http://www.w3.org/2000/svg" width="27.115" height="27.115" viewBox="0 0 27.115 27.115">
+                <path id="Union_3" data-name="Union 3"
+                    d="M-3014.443,134.558-3025,145.115l10.557-10.557L-3025,124l10.557,10.557L-3003.885,124l-10.558,10.557,10.558,10.557Z"
+                    transform="translate(3028 -121)" fill="none" stroke="#fff" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="6" />
+            </svg>
+        </button>
+    </div>
 </body>
+
+<script src="app.js"></script>
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+        showDivsMiga(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = x.length }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+    }
+
+    showDivs(showDivsMiga);
+    function showDivsMiga(n) {
+        var i;
+        var x = document.getElementsByClassName("miga-slide");
+        if (n > x.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = x.length }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+    }
+</script>
 
 </html>

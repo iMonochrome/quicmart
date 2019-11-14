@@ -7,6 +7,9 @@
 
 body {
   font-family: "Comfortaa", cursive;
+}
+
+.main-bg {
   background: #ffde43;
   background-image: url(../images/home-bg.png);
   background-repeat: no-repeat;

@@ -1,0 +1,199 @@
+.result-header {
+  height: 100vh;
+  background: #fff;
+  background-image: url(../images/bg-circle-yellow.png);
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position-y: 120%;
+}
+
+.result-header-title {
+  font-size: 80px;
+  font-weight: bold;
+  color: #d32a02;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Menu List */
+
+.result-body-menu {
+  position: relative;
+}
+
+.result-body-menu .menu-list-items {
+  height: 70px;
+  background: #454545;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 35px;
+  transition: all 1s ease;
+  border-radius: 999px;
+  color: #fff;
+  cursor: pointer;
+  padding: 0 35px;
+  position: relative;
+  top: -35px;
+}
+
+.result-body-menu .menu-list-items::after {
+  position: absolute;
+  content: "";
+  height: 36px;
+  width: 89px;
+  transition: all 0.5s ease;
+  transition-delay: 0.3s;
+  bottom: 0;
+  left: calc(50% - 45px);
+  background-image: url(../images/after-btn.png);
+  z-index: -1;
+}
+
+.result-body-menu .menu-list-items img {
+  margin-left: 20px;
+}
+
+.result-body-menu .menu-list-items:last-child {
+  margin-right: 0;
+}
+
+.result-body-menu .menu-list-items:hover {
+  background: #d32a02;
+}
+
+.result-body-menu .menu-list-items:hover:after,
+.result-body-menu .menu-list-items.active:after {
+  bottom: -15px;
+  transition-delay: 0;
+}
+
+.result-body {
+  background: #FFDE43;
+}
+
+.result-body-list-items {
+  width: 100%;
+  padding: 50px;
+}
+
+.result-body-items {
+  width: 24%;
+  margin-bottom: 30px;
+}
+
+.result-body-items img {
+  border-radius: 10px;
+}
+
+.content-name {
+  color: #454545;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content-price {
+  height: 44px;
+  width: 110px;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 999px;
+  background: #454545;
+}
+
+.modal-miga {
+  height: 90%;
+  width: 80%;
+  position: fixed;
+  bottom: 105%;
+  left: 10%;
+  border-radius: 43px;
+  overflow: hidden;
+  box-shadow: 0 3px 32px rgba(0, 0, 0, 0.16);
+  background: #fff;
+  transition: all 0.8s ease;
+}
+
+.modal-miga.active {
+  bottom: 5%;
+}
+
+.modal-miga-img {
+  width: 45%;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.miga-checkin {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.miga-price {
+  width: 300px;
+  background: #D32A02;
+}
+
+.modal-miga-content {
+  width: 55%;
+  background: #454545;
+  height: 100%;
+  color :#fff;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+.process {
+  color: rgba(#fff, 0.5);
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.vifon {
+  color: #FFDE43;
+  font-size: 46px;
+  line-height: 1;
+}
+.migaa {
+  font-size: 80px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.ingredients, .nutritions {
+  width: 50%;
+}
+
+.miga-info h6 {
+  color: #FFDE43;
+  font-size: 20px;
+}
+
+.miga-info p {
+  font-size: 18px;
+}
+
+.review , .recomment {
+  width: 100%;
+}
+
+.modal-miga .btn-x {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.modal-miga .btn-x:hover svg path {
+  transition: all 0.4s ease;
+}
+
+.modal-miga .btn-x:hover svg path{
+  stroke: #D32A02;
+}
+
+.list-recomment img {
+  margin-right: 25px;
+}
