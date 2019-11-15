@@ -268,3 +268,12 @@ input:-moz-placeholder {
   background: #FF4400 ;
   width: 362px;
 }
+
+.btn-x {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
